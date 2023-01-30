@@ -18,7 +18,7 @@ public class FirstTutorialApplication {
 		SpringApplication.run(FirstTutorialApplication.class, args);
 	}
 
-	@GetMapping
+	@GetMapping(path = "/")
 	public List<Student> hello(){
 		return List.of(
 				new Student(
