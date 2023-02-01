@@ -7,3 +7,4 @@ It covers the understanding of the following concepts:
 1. Separating the application into its components.
 2. API definition and implementation.
 3. Service layer definition and dependency injection.
+4. Connecting to a database.
