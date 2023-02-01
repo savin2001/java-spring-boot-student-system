@@ -8,3 +8,5 @@ It covers the understanding of the following concepts:
 2. API definition and implementation.
 3. Service layer definition and dependency injection.
 4. Connecting to a database.
+5. Data access implementation.
+6. 
