@@ -16,15 +16,15 @@ public class StudentConfig {
             Student savin = new Student(
                         "Savin",
                         "test@mele.com",
-                        LocalDate.of(2005, Month.JULY, 7),
-                        22
+                        LocalDate.of(2005, Month.JULY, 7)
                 );
             Student dee = new Student(
                     "Dee",
                     "dee@mele.com",
-                    LocalDate.of(2005, Month.DECEMBER, 23),
-                    24
+                    LocalDate.of(2005, Month.DECEMBER, 23)
             );
+
+//            This function inserts the student objects into the DB
             repository.saveAll(
                     List.of(savin, dee)
             );
