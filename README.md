@@ -9,4 +9,6 @@ It covers the understanding of the following concepts:
 3. Service layer definition and dependency injection.
 4. Connecting to a database.
 5. Data access implementation.
-6. Inserting data into the DB table.
+6. Retrieving data from the DB.
+7. Posting data to the DB.
+8. 

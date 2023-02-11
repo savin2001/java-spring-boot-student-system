@@ -3,8 +3,6 @@ package firsttutorial.com.example.firsttutorial.student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 
 @Service
@@ -29,5 +27,10 @@ public class StudentService {
 //
 //                )
 //        );
+    }
+
+    // Adding new students to the db
+    public void addNewStudent(Student student) {
+        System.out.println(student);
     }
 }
